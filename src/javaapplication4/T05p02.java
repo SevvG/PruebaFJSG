@@ -8,23 +8,23 @@ public class T05p02
 	{
 		Alumno a=new Alumno();
 		
-		a.setDni("11223344Z");
-		a.setNombre("Antonio");
-		a.setFecNan("02/12/2000");
+		a.setDni("77880033K");
+		a.setNombre("Mateo");
+		a.setFecNan("22/11/1980");
 		
 		Modulo m=new Modulo();
 		
-		m.setCodigo("387U44Q");
-		m.setTitulo("Entornos");
-		m.setHoraS("30h");
+		m.setCodigo("889O81W");
+		m.setTitulo("Bases de datos");
+		m.setHoraS("45h");
 		
 		Notas n=new Notas();
 		
 		n.setDni(a.getDni());
 		n.setCodigo(m.getCodigo());
 		n.setNota1Ev(6);
-		n.setNota2Ev(7);
-		n.setNota3Ev(8);
+		n.setNota2Ev(5);
+		n.setNota3Ev(4);
 		
 		System.out.println("Alumno");
 		System.out.println("------");
