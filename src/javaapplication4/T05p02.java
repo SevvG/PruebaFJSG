@@ -9,22 +9,22 @@ public class T05p02
 		Alumno a=new Alumno();
 		
 		a.setDni("11223344Z");
-		a.setNombre("Paco");
-		a.setFecNan("12/05/1995");
+		a.setNombre("Antonio");
+		a.setFecNan("02/12/2000");
 		
 		Modulo m=new Modulo();
 		
-		m.setCodigo("125A35B");
-		m.setTitulo("Programacion");
-		m.setHoraS("70h");
+		m.setCodigo("387U44Q");
+		m.setTitulo("Entornos");
+		m.setHoraS("30h");
 		
 		Notas n=new Notas();
 		
 		n.setDni(a.getDni());
 		n.setCodigo(m.getCodigo());
-		n.setNota1Ev(4.5);
-		n.setNota2Ev(5.5);
-		n.setNota3Ev(7);
+		n.setNota1Ev(6);
+		n.setNota2Ev(7);
+		n.setNota3Ev(8);
 		
 		System.out.println("Alumno");
 		System.out.println("------");
